@@ -1,0 +1,46 @@
+.navbar {
+    flex-direction: column;
+}
+
+.navbar::before {
+    height: 200px;
+}
+
+.navbar ul li a {
+    font-size: 1.2rem;
+}
+
+.team-img {
+    flex-direction: column;
+    height: 650px;
+
+
+}
+
+.customar-img {
+    height: 150px;
+    width: 100px;
+}
+
+.team-img img {
+    height: 100px;
+    width: 100px;
+}
+.para{
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+.brand-work-item{
+    flex-direction: column;
+}
+.address-item h2, h3, span{
+    font-size: 15px;
+}
+.table-section{
+    flex-direction: column;
+    align-items: center;
+}
+.contact-section{
+    flex-direction: column;
+}

@@ -1,0 +1,366 @@
+/* css  reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+
+
+
+
+/* navbar start here */
+
+.navbar::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+
+    height: 80px;
+    width: 100%;
+
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+
+
+}
+
+#navbar-logo {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+
+}
+
+.navbar img {
+    height: 60px;
+    width: 60px;
+}
+
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar ul li {
+    list-style: none;
+
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 1.5rem;
+
+}
+/* #search{
+ position: relative;
+ right: 50px;
+ 
+
+}
+#search input{
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+  
+} */
+
+.navbar ul li a:hover {
+    color: black;
+    background: white;
+}
+
+.navbar-search-icon {
+
+    margin-left: auto;
+}
+
+.navbar-search-icon i {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.background-img {
+
+
+
+    height: 500px;
+    width: 100%;
+    background: url(background.png) no-repeat center center/cover;
+}
+
+/* team section start here  */
+.team-img {
+    display: flex;
+    background-color: rgb(255, 251, 251);
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.customar-img {
+    height: 200px;
+    width: 200px;
+}
+
+.team-img img {
+    height: 200px;
+    width: 200px;
+}
+
+/* brand work start here  */
+.brand-work-- {
+    background-color: #000000;
+    color: white;
+
+
+
+
+}
+
+.brand-work-item {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+#h2 {
+    margin-top: 100px;
+}
+
+.item-work {
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+    border: 2px solid red;
+    margin: 40px 10px 10px 10px;
+    padding: 10px;
+}
+
+.h2-section h2 {
+    margin: 30px;
+}
+
+.item-work img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+/* utility class */
+.h-2nd {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.para {
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    margin: 10px;
+    text-align: center;
+}
+
+/* price section start here  */
+#price-para {
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.table-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+table {
+    margin: 20px;
+    padding: 10px;
+    height: 500px;
+    width: 300px;
+
+}
+
+
+table td {
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+tr:nth-child(1) {
+    background-color: #000000;
+    color: white;
+    height: 50px;
+}
+
+.last-td {
+    background-color: gray;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: #009688;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 25%;
+}
+
+/* address section start here  */
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(189, 183, 183);
+}
+
+#contect-headline {
+    display: inline;
+    border-bottom: 5px solid #009688;
+}
+
+.address-item h2,
+h3,
+span {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.address {
+    margin: 10px;
+    font-size: 20px;
+}
+
+/* form style */
+.form-section {
+    background-color: white;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 25px;
+
+}
+
+.form-group input,
+label {
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+    font-size: 20px;
+}
+
+#form {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+input[type="submit"] {
+    height: 30px;
+    width: 50px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin: 10px;
+    padding: 0;
+    width: auto;
+    font-size: 30px;
+}
+
+label[for=checkbox] {
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    font-family: cursive;
+}
+
+#send {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* follow section  */
+.follow {
+    background-color: #000000;
+    color: aliceblue;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+.icon i {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #009688;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    background-color: #000000;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+
+}
